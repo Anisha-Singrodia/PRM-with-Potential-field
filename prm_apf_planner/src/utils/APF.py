@@ -33,6 +33,7 @@ class APF:
         sampling_points = 0
         obs_x, obs_y, white_reg, samples_obs_region, samples_open_region = [], [], [], [], []
         im_rep = map.copy()
+        print("inside sampling")
         for i in range(im_rep.shape[0]):
             for j in range(im_rep.shape[1]):
                 if im_rep[i][j] == 0:
